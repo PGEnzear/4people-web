@@ -1,0 +1,181 @@
+.eventFrame {
+
+    position: relative;
+
+    z-index: 10;
+
+    width: 100%;
+    height: 235px;
+
+    border-radius: 10px;
+
+    background: linear-gradient(100.14deg, #E02680 -1.08%, #E2E624 100%);
+
+    .bonusValue {
+
+        position: relative;
+
+        color: white;
+        
+        top: -20px;
+
+        font-weight: 800;
+
+        font-family: "Cygre ExtraBold";
+
+        height: 45px;
+
+        font-size: 64px;
+
+    }
+
+    .mainInfoItems {
+
+        position: relative;
+
+        height: 195px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .mainInfo {
+
+        position: relative;
+
+        padding-top: 20px;
+        padding-left: 20px;
+
+        width: 133px;
+
+        height: calc(100% - 40px);
+
+    }
+
+    .backgroundImage {
+
+        display: none;
+
+        position: absolute;
+
+        z-index: -10;
+
+        width: 494px;
+        height: 435px;
+
+    }
+
+    .bonus {
+
+        position: relative;
+        display: flex;
+
+        flex-direction: row;
+
+        width: 56px;
+        height: 18px;
+
+        p {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: white;
+        }
+
+    }
+
+    .timer {
+
+        position: relative;    
+
+        height: 40px;
+
+        width: 114px;
+
+        justify-content: space-around;
+
+        .timeLeftLabel {
+            color: white;
+            font-size: 12px;
+            font-weight: 500px;
+        }    
+
+        .timerItems {
+
+            position: relative;
+
+            display: flex;
+            flex-direction: row;
+
+            justify-content: space-around;
+
+            p {
+
+                padding: 4px;
+    
+                color: white;
+                font-size: 12px;
+
+                border-radius: 8px;
+
+                padding: 8px 5px 8px 5px;
+
+                background: rgba(6, 8, 14, 1);
+    
+                span {
+    
+                    font-size: 10px;
+                    color: rgba(255, 255, 255, 0.2)
+                }
+    
+            }
+    
+
+        }
+
+    }
+
+    .moreButton {
+
+        position: relative;
+
+        width: 100%;
+
+        background-color: white;
+        
+        height: 32px;
+        
+        border: none;
+        border-radius: 8px;
+
+        cursor: pointer;
+
+        div {
+
+            display: flex;
+
+            flex-direction: row;
+
+            button {
+            
+                position: relative;
+    
+                text-align: center;
+    
+            }
+
+            p {
+
+                font-size: 12px;
+                font-weight: 500;
+                
+                color: rgba(4, 4, 16, 1);
+    
+            }
+
+        }
+
+    }
+}

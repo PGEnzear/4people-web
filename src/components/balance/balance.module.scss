@@ -1,0 +1,43 @@
+.balance {
+
+    position: relative;
+
+    width: 99px;
+
+    height: 31px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+    padding: 10px, 20px, 10px, 20px;
+
+    background-color: #5E24D9;
+
+    text-align: center;
+
+    border-radius: 10px;
+    
+    img {
+
+        position: relative;
+
+        margin-top: 10px;
+        
+    }
+
+    p {
+
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        font-size: 16px;
+
+        color: #FFFFFF
+    }
+
+}

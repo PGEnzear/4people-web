@@ -1,0 +1,93 @@
+.room {
+ 
+    position: relative;
+
+    margin-top: 10px;
+
+    z-index: 10;
+    
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 68px;
+
+    background: rgba(94, 36, 217, 1);
+
+    border-radius: 8px;
+
+    width: 100%;
+
+    .roomJoin {
+    
+        position: relative;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        .roomJoinItems {
+
+            position: relative;
+            
+            display: flex;
+
+            flex-direction: row;
+    
+            justify-content: center;;
+
+            p {
+
+                color: white;
+    
+                font-weight: 400;
+    
+                font-size: 12px;
+    
+            }
+
+        }
+
+    }
+
+    .roomContent {
+
+        position: relative;
+
+        margin: 0 auto;
+
+        display: flex;
+
+        width: calc(100% - 48px);
+
+        flex-direction: row;
+
+        justify-content: space-between;
+        
+
+    }
+
+
+    .roomInfo {
+
+        color: white;
+
+        font-size: 40px;
+        font-weight: 500;
+
+        span {
+
+            font-size: 12px;
+            font-weight: 400;
+
+            color: rgba(255, 255, 255, 0.2);
+
+        }
+
+    }
+
+}

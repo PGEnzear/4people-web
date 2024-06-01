@@ -1,0 +1,54 @@
+.bombGrid {
+
+    position: relative;
+
+    .waiting {
+
+        position: relative;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+    }
+
+    .waitingInfo {
+
+        text-align: center;
+        
+        position: relative;
+
+        margin: 0 auto;
+
+        width: 201px;
+
+        img {
+            margin: 0 auto;
+        }
+
+        p {
+            color: rgba(255, 255, 255, 0.2);
+
+        }
+
+    }
+
+    .row {
+
+        position: relative;
+
+        width: 100%;
+
+        margin-top: calc((100vw - 304px) / 4);
+
+        display: flex;
+
+        flex-direction: row;
+
+        justify-content: space-between;
+
+    }
+
+}
